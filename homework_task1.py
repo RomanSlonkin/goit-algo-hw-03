@@ -6,4 +6,4 @@ def get_days_from_today(date):
     days_from_today = date_today - requsted_date
     print(days_from_today.days)
 
-get_days_from_today("2026-10-09") 
+get_days_from_today("2026-10-09")
