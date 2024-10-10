@@ -27,4 +27,7 @@ def clean_phone(phone_number):
             else:
                 cleaned_number = "+38" + cleaned_number
         print(cleaned_number)
+
+clean_phone("38050-111-22-22")
+clean_phone(phone_numbers)
 # End-of-file (EOF)
