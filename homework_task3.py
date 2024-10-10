@@ -10,7 +10,7 @@ phone_numbers = ["    +38(050)123-32-34",
 
 def clean_phone(phone_number):
     "function to format given phone number or numbers"
-    if type(phone_number) == list:
+    if isinstance(phone_number, list):
         for phone in phone_number:
             cleaned_number = re.sub(r'\D', '', phone)
             if not cleaned_number.startswith("+"):
