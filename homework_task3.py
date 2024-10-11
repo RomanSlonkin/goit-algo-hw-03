@@ -8,6 +8,6 @@ def normalize_phone(phone_number):
         if cleaned_number.startswith("380"):
             cleaned_number = "+" + cleaned_number
         else:
-                cleaned_number = "+38" + cleaned_number
+            cleaned_number = "+38" + cleaned_number
     return cleaned_number
 # End-of-file (EOF)
