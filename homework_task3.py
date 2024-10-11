@@ -9,7 +9,7 @@ def normalize_phone(phone_number):
             cleaned_number = "+" + cleaned_number
         else:
                 cleaned_number = "+38" + cleaned_number
-        return cleaned_number
+    return cleaned_number
 
 raw_numbers = [
     "067\\t123 4567",
